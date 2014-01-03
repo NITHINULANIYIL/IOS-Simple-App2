@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B92DEE52186F166900E39A39 /* hellowworld5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92DEE51186F166900E39A39 /* hellowworld5ViewController.m */; };
+		B9396EF4186AAE4000651820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9396EF3186AAE4000651820 /* Foundation.framework */; };
+		B9396EF6186AAE4000651820 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9396EF5186AAE4000651820 /* CoreGraphics.framework */; };
+		B9396EF8186AAE4000651820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9396EF7186AAE4000651820 /* UIKit.framework */; };
+		B9396EFE186AAE4000651820 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9396EFC186AAE4000651820 /* InfoPlist.strings */; };
+		B9396F00186AAE4000651820 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9396EFF186AAE4000651820 /* main.m */; };
+		B9396F04186AAE4000651820 /* hellowworldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9396F03186AAE4000651820 /* hellowworldAppDelegate.m */; };
+		B9396F07186AAE4000651820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9396F05186AAE4000651820 /* Main.storyboard */; };
+		B9396F0A186AAE4000651820 /* hellowworldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9396F09186AAE4000651820 /* hellowworldViewController.m */; };
+		B9396F0C186AAE4000651820 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9396F0B186AAE4000651820 /* Images.xcassets */; };
+		B9396F13186AAE4100651820 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9396F12186AAE4100651820 /* XCTest.framework */; };
+		B9396F14186AAE4100651820 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9396EF3186AAE4000651820 /* Foundation.framework */; };
+		B9396F15186AAE4100651820 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9396EF7186AAE4000651820 /* UIKit.framework */; };
+		B9396F1D186AAE4100651820 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9396F1B186AAE4100651820 /* InfoPlist.strings */; };
+		B9396F1F186AAE4100651820 /* hellow_wolrdtoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B9396F1E186AAE4100651820 /* hellow_wolrdtoryTests.m */; };
+		B9396F2A186AB15600651820 /* hellowworld1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9396F29186AB15600651820 /* hellowworld1ViewController.m */; };
+		B9396F2D186ABC1700651820 /* hellowworld4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9396F2C186ABC1700651820 /* hellowworld4ViewController.m */; };
+		B9949C4D18702E1600627D84 /* hellowworld11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9949C4C18702E1600627D84 /* hellowworld11ViewController.m */; };
+		B9E0D96F18701EEB004B954D /* Photo0964.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9E0D96E18701EEB004B954D /* Photo0964.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9396F16186AAE4100651820 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9396EE8186AAE4000651820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9396EEF186AAE4000651820;
+			remoteInfo = hellow_wolrdtory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B92DEE50186F166900E39A39 /* hellowworld5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hellowworld5ViewController.h; sourceTree = "<group>"; };
+		B92DEE51186F166900E39A39 /* hellowworld5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hellowworld5ViewController.m; sourceTree = "<group>"; };
+		B9396EF0186AAE4000651820 /* hellow_wolrdtory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellow_wolrdtory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9396EF3186AAE4000651820 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9396EF5186AAE4000651820 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9396EF7186AAE4000651820 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9396EFB186AAE4000651820 /* hellow_wolrdtory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hellow_wolrdtory-Info.plist"; sourceTree = "<group>"; };
+		B9396EFD186AAE4000651820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9396EFF186AAE4000651820 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9396F01186AAE4000651820 /* hellow_wolrdtory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hellow_wolrdtory-Prefix.pch"; sourceTree = "<group>"; };
+		B9396F02186AAE4000651820 /* hellowworldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hellowworldAppDelegate.h; sourceTree = "<group>"; };
+		B9396F03186AAE4000651820 /* hellowworldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hellowworldAppDelegate.m; sourceTree = "<group>"; };
+		B9396F06186AAE4000651820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9396F08186AAE4000651820 /* hellowworldViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hellowworldViewController.h; sourceTree = "<group>"; };
+		B9396F09186AAE4000651820 /* hellowworldViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hellowworldViewController.m; sourceTree = "<group>"; };
+		B9396F0B186AAE4000651820 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B9396F11186AAE4100651820 /* hellow_wolrdtoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hellow_wolrdtoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9396F12186AAE4100651820 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B9396F1A186AAE4100651820 /* hellow_wolrdtoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hellow_wolrdtoryTests-Info.plist"; sourceTree = "<group>"; };
+		B9396F1C186AAE4100651820 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9396F1E186AAE4100651820 /* hellow_wolrdtoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hellow_wolrdtoryTests.m; sourceTree = "<group>"; };
+		B9396F28186AB15600651820 /* hellowworld1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hellowworld1ViewController.h; sourceTree = "<group>"; };
+		B9396F29186AB15600651820 /* hellowworld1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hellowworld1ViewController.m; sourceTree = "<group>"; };
+		B9396F2B186ABC1700651820 /* hellowworld4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hellowworld4ViewController.h; sourceTree = "<group>"; };
+		B9396F2C186ABC1700651820 /* hellowworld4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hellowworld4ViewController.m; sourceTree = "<group>"; };
+		B9949C4B18702E1600627D84 /* hellowworld11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hellowworld11ViewController.h; sourceTree = "<group>"; };
+		B9949C4C18702E1600627D84 /* hellowworld11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hellowworld11ViewController.m; sourceTree = "<group>"; };
+		B9E0D96E18701EEB004B954D /* Photo0964.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Photo0964.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9396EED186AAE4000651820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9396EF6186AAE4000651820 /* CoreGraphics.framework in Frameworks */,
+				B9396EF8186AAE4000651820 /* UIKit.framework in Frameworks */,
+				B9396EF4186AAE4000651820 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9396F0E186AAE4100651820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9396F13186AAE4100651820 /* XCTest.framework in Frameworks */,
+				B9396F15186AAE4100651820 /* UIKit.framework in Frameworks */,
+				B9396F14186AAE4100651820 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9396EE7186AAE4000651820 = {
+			isa = PBXGroup;
+			children = (
+				B9396EF9186AAE4000651820 /* hellow_wolrdtory */,
+				B9396F18186AAE4100651820 /* hellow_wolrdtoryTests */,
+				B9396EF2186AAE4000651820 /* Frameworks */,
+				B9396EF1186AAE4000651820 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9396EF1186AAE4000651820 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9396EF0186AAE4000651820 /* hellow_wolrdtory.app */,
+				B9396F11186AAE4100651820 /* hellow_wolrdtoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9396EF2186AAE4000651820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9396EF3186AAE4000651820 /* Foundation.framework */,
+				B9396EF5186AAE4000651820 /* CoreGraphics.framework */,
+				B9396EF7186AAE4000651820 /* UIKit.framework */,
+				B9396F12186AAE4100651820 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9396EF9186AAE4000651820 /* hellow_wolrdtory */ = {
+			isa = PBXGroup;
+			children = (
+				B9396F02186AAE4000651820 /* hellowworldAppDelegate.h */,
+				B9E0D96E18701EEB004B954D /* Photo0964.jpg */,
+				B9396F03186AAE4000651820 /* hellowworldAppDelegate.m */,
+				B9396F05186AAE4000651820 /* Main.storyboard */,
+				B9949C4B18702E1600627D84 /* hellowworld11ViewController.h */,
+				B9949C4C18702E1600627D84 /* hellowworld11ViewController.m */,
+				B92DEE50186F166900E39A39 /* hellowworld5ViewController.h */,
+				B92DEE51186F166900E39A39 /* hellowworld5ViewController.m */,
+				B9396F2B186ABC1700651820 /* hellowworld4ViewController.h */,
+				B9396F2C186ABC1700651820 /* hellowworld4ViewController.m */,
+				B9396F28186AB15600651820 /* hellowworld1ViewController.h */,
+				B9396F29186AB15600651820 /* hellowworld1ViewController.m */,
+				B9396F08186AAE4000651820 /* hellowworldViewController.h */,
+				B9396F09186AAE4000651820 /* hellowworldViewController.m */,
+				B9396F0B186AAE4000651820 /* Images.xcassets */,
+				B9396EFA186AAE4000651820 /* Supporting Files */,
+			);
+			path = hellow_wolrdtory;
+			sourceTree = "<group>";
+		};
+		B9396EFA186AAE4000651820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9396EFB186AAE4000651820 /* hellow_wolrdtory-Info.plist */,
+				B9396EFC186AAE4000651820 /* InfoPlist.strings */,
+				B9396EFF186AAE4000651820 /* main.m */,
+				B9396F01186AAE4000651820 /* hellow_wolrdtory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9396F18186AAE4100651820 /* hellow_wolrdtoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9396F1E186AAE4100651820 /* hellow_wolrdtoryTests.m */,
+				B9396F19186AAE4100651820 /* Supporting Files */,
+			);
+			path = hellow_wolrdtoryTests;
+			sourceTree = "<group>";
+		};
+		B9396F19186AAE4100651820 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9396F1A186AAE4100651820 /* hellow_wolrdtoryTests-Info.plist */,
+				B9396F1B186AAE4100651820 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9396EEF186AAE4000651820 /* hellow_wolrdtory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9396F22186AAE4100651820 /* Build configuration list for PBXNativeTarget "hellow_wolrdtory" */;
+			buildPhases = (
+				B9396EEC186AAE4000651820 /* Sources */,
+				B9396EED186AAE4000651820 /* Frameworks */,
+				B9396EEE186AAE4000651820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellow_wolrdtory;
+			productName = hellow_wolrdtory;
+			productReference = B9396EF0186AAE4000651820 /* hellow_wolrdtory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9396F10186AAE4100651820 /* hellow_wolrdtoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9396F25186AAE4100651820 /* Build configuration list for PBXNativeTarget "hellow_wolrdtoryTests" */;
+			buildPhases = (
+				B9396F0D186AAE4100651820 /* Sources */,
+				B9396F0E186AAE4100651820 /* Frameworks */,
+				B9396F0F186AAE4100651820 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9396F17186AAE4100651820 /* PBXTargetDependency */,
+			);
+			name = hellow_wolrdtoryTests;
+			productName = hellow_wolrdtoryTests;
+			productReference = B9396F11186AAE4100651820 /* hellow_wolrdtoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9396EE8186AAE4000651820 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = hellowworld;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = infoview;
+				TargetAttributes = {
+					B9396F10186AAE4100651820 = {
+						TestTargetID = B9396EEF186AAE4000651820;
+					};
+				};
+			};
+			buildConfigurationList = B9396EEB186AAE4000651820 /* Build configuration list for PBXProject "hellow_wolrdtory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9396EE7186AAE4000651820;
+			productRefGroup = B9396EF1186AAE4000651820 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9396EEF186AAE4000651820 /* hellow_wolrdtory */,
+				B9396F10186AAE4100651820 /* hellow_wolrdtoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9396EEE186AAE4000651820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9396F0C186AAE4000651820 /* Images.xcassets in Resources */,
+				B9E0D96F18701EEB004B954D /* Photo0964.jpg in Resources */,
+				B9396EFE186AAE4000651820 /* InfoPlist.strings in Resources */,
+				B9396F07186AAE4000651820 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9396F0F186AAE4100651820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9396F1D186AAE4100651820 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9396EEC186AAE4000651820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9396F0A186AAE4000651820 /* hellowworldViewController.m in Sources */,
+				B9396F04186AAE4000651820 /* hellowworldAppDelegate.m in Sources */,
+				B9396F2A186AB15600651820 /* hellowworld1ViewController.m in Sources */,
+				B9396F00186AAE4000651820 /* main.m in Sources */,
+				B92DEE52186F166900E39A39 /* hellowworld5ViewController.m in Sources */,
+				B9396F2D186ABC1700651820 /* hellowworld4ViewController.m in Sources */,
+				B9949C4D18702E1600627D84 /* hellowworld11ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9396F0D186AAE4100651820 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9396F1F186AAE4100651820 /* hellow_wolrdtoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9396F17186AAE4100651820 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9396EEF186AAE4000651820 /* hellow_wolrdtory */;
+			targetProxy = B9396F16186AAE4100651820 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9396EFC186AAE4000651820 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9396EFD186AAE4000651820 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9396F05186AAE4000651820 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9396F06186AAE4000651820 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9396F1B186AAE4100651820 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9396F1C186AAE4100651820 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9396F20186AAE4100651820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9396F21186AAE4100651820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9396F23186AAE4100651820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellow_wolrdtory/hellow_wolrdtory-Prefix.pch";
+				INFOPLIST_FILE = "hellow_wolrdtory/hellow_wolrdtory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9396F24186AAE4100651820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellow_wolrdtory/hellow_wolrdtory-Prefix.pch";
+				INFOPLIST_FILE = "hellow_wolrdtory/hellow_wolrdtory-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B9396F26186AAE4100651820 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hellow_wolrdtory.app/hellow_wolrdtory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellow_wolrdtory/hellow_wolrdtory-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hellow_wolrdtoryTests/hellow_wolrdtoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B9396F27186AAE4100651820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hellow_wolrdtory.app/hellow_wolrdtory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hellow_wolrdtory/hellow_wolrdtory-Prefix.pch";
+				INFOPLIST_FILE = "hellow_wolrdtoryTests/hellow_wolrdtoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9396EEB186AAE4000651820 /* Build configuration list for PBXProject "hellow_wolrdtory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9396F20186AAE4100651820 /* Debug */,
+				B9396F21186AAE4100651820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9396F22186AAE4100651820 /* Build configuration list for PBXNativeTarget "hellow_wolrdtory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9396F23186AAE4100651820 /* Debug */,
+				B9396F24186AAE4100651820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9396F25186AAE4100651820 /* Build configuration list for PBXNativeTarget "hellow_wolrdtoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9396F26186AAE4100651820 /* Debug */,
+				B9396F27186AAE4100651820 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9396EE8186AAE4000651820 /* Project object */;
+}
